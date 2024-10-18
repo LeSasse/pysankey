@@ -75,7 +75,9 @@ def parse_sankey_script(sankey_script):
 
         try:
             source, rest = line_content.split("[")
+            source = source.strip()
             value_link, target = rest.split("]")
+            target = target.strip()
         except ValueError:
             raise ValueError(f"Line {line_nr}: SyntaxError - {line_content}")
 
