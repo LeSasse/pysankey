@@ -1,5 +1,5 @@
 
-Wages [1500] Budget
+Wages(color: black) [1500] Budget(color: red){color: rgba(255,0,0,0.2)}
 Other [250] Budget
 
 Budget [450] Taxes
